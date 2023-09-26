@@ -2,7 +2,7 @@ import "./App.css";
 import io from "socket.io-client";
 import { useState } from "react";
 import Chat from "./Chat";
-const socket = io.connect("https://rubychatapp.onrender.com/");
+const socket = io.connect("https://chat-app-backend-one-mu.vercel.app/");
 
 function App() {
   const [username, setUsername] = useState("");
